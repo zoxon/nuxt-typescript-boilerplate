@@ -21,7 +21,8 @@
     "test:unit:watch": "npm run test:unit -- --watch --notify --notifyMode change",
     "test:unit:ci": "npm run test:unit -- --coverage --ci",
     "test": "npm run test:unit",
-    "test:ci": "npm run test:unit:ci"
+    "test:ci": "npm run test:unit:ci",
+    "new": "hygen new"
   },
   "husky": {
     "hooks": {
@@ -33,6 +34,7 @@
     "@nuxt/typescript-runtime": "^0.1.3",
     "@nuxtjs/pwa": "^3.0.0-0",
     "cross-env": "^6.0.3",
+    "lodash": "^4.17.15",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
@@ -49,6 +51,7 @@
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.0.1",
     "husky": "^3.0.8",
+    "hygen": "^4.0.9",
     "imagemin-lint-staged": "^0.4.0",
     "jest": "^24.1.0",
     "jest-serializer-vue": "^2.0.2",
