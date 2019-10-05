@@ -6,4 +6,9 @@ describe('Logo', () => {
     const wrapper = mount(Logo)
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
+
+  test('should match to snapshot', () => {
+    const wrapper = mount(Logo)
+    expect(wrapper).toMatchSnapshot()
+  })
 })
