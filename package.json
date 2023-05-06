@@ -38,7 +38,7 @@
     "cross-env": "^6.0.3",
     "littera": "zoxon/littera",
     "lodash": "^4.17.15",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.16.3"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.1.11",
@@ -50,7 +50,7 @@
     "@storybook/addon-knobs": "^5.2.1",
     "@storybook/addon-links": "^5.2.1",
     "@storybook/addons": "^5.2.1",
-    "@storybook/vue": "^5.2.1",
+    "@storybook/vue": "^7.0.9",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
@@ -75,7 +75,7 @@
     "postcss-preset-env": "^6.7.0",
     "postcss-url": "^8.0.0",
     "prettier": "^1.16.4",
-    "resolve-url-loader": "^3.1.0",
+    "resolve-url-loader": "^3.1.5",
     "sass-loader": "^8.0.0",
     "stylelint": "^11.0.0",
     "stylelint-config-prettier": "^6.0.0",
