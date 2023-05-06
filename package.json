@@ -38,7 +38,7 @@
     "cross-env": "^6.0.3",
     "littera": "zoxon/littera",
     "lodash": "^4.17.15",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.16.3"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.1.11",
